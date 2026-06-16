@@ -1,6 +1,6 @@
 const express = require("express");
 const pool = require("../config/db");
-const authMiddleware = require("../middleware/authMiddleware");
+const authMiddleware = require("../middleware/authmiddleware.js");
 
 const router = express.Router();
 router.post("/", authMiddleware, async (req, res) => {
