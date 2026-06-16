@@ -2,10 +2,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Login from "./pages/Login.jsx";
 import Register from "./pages/Register.jsx";
-import UserDashboard from "./pages/UserDashboard.js";
-import AdminDashboard from "./pages/AdminDashboard.js";
+import UserDashboard from "./pages/UserDashboard.jsx";
+import AdminDashboard from "./pages/AdminDashboard.jsx";
 import MyRegistrations from "./pages/MyRegistrations.jsx";
-import EventDetails from "./pages/EventDetails.js";
+import EventDetails from "./pages/EventDetails.jsx";
 
 function App() {
   return (
